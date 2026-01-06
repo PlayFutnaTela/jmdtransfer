@@ -72,11 +72,11 @@
                 Executiva com Segurança e Discrição</span>
         </div>
         <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
-            <a class="hover:text-primary transition-colors" href="#">Início</a>
-            <a class="hover:text-primary transition-colors" href="#">Serviços</a>
-            <a class="hover:text-primary transition-colors" href="#">Frota</a>
-            <a class="hover:text-primary transition-colors" href="#">Atuação</a>
-            <a class="hover:text-primary transition-colors" href="#">Contato</a>
+            <a class="hover:text-primary transition-colors" href="#inicio">Início</a>
+            <a class="hover:text-primary transition-colors" href="#servicos">Serviços</a>
+            <a class="hover:text-primary transition-colors" href="#frota">Frota</a>
+            <a class="hover:text-primary transition-colors" href="#atuacao">Atuação</a>
+            <a class="hover:text-primary transition-colors" href="#contato">Contato</a>
             <button class="bg-primary/10 text-primary p-2 rounded-full hover:bg-primary/20 transition hidden">
                 <span class="material-icons-outlined">menu</span>
             </button>
@@ -91,10 +91,10 @@
             <span class="material-icons-outlined text-3xl">menu</span>
         </button>
     </nav>
-    <header class="relative w-full min-h-[90vh] flex items-center bg-background-light dark:bg-background-dark">
-        <div class="absolute inset-0 z-0 hidden dark:block">
-            <img alt="Luxury Black SUV on a scenic road" class="w-full h-full object-cover opacity-70"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAI3wrSWTXIePY4mwIXaW5DczsuxJ_U2ENW8Bn09625qogPYoz8QWjJ7_U42zLacpGcvXA55PotZJm3h9MkoPSC0s106naP509jmTVVn5El_9NIj2Xka5RWtr1O3EdMYAsA1bEY0Rlu93wAGh_9fSUPcCardQ3P6ShtvN8PW-HkmFRq5-iZ9UgxRzEaFDIp4Tsgmm82F4zWreAZD1PgFL4btwgdvdWBVAY7oGq9DIYsST1lJEfgJK5-t5wRKFcWzKdRtAqqlqnWyUAx" />
+    <header id="inicio" class="relative w-full min-h-[90vh] flex items-center bg-background-light dark:bg-background-dark">
+        <div class="absolute inset-0 z-0">
+            <img alt="Nissan Kicks cinza chumbo ano 2024 viajando" class="w-full h-full object-cover opacity-70"
+                src="https://i.postimg.cc/4yBCJYM5/nissan-kicks-cinza-chumbo-ano-2024-viajando.jpg" />
             <div class="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent"></div>
         </div>
         <div class="relative z-10 container mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center pt-20">
@@ -104,34 +104,26 @@
                         Absoluta</span>
                 </h1>
                 <p
-                    class="text-text-secondary-light dark:text-text-secondary-dark text-sm md:text-base max-w-lg leading-relaxed">
+                    class="text-white text-sm md:text-base max-w-lg leading-relaxed">
                     Atendemos executivos, empresas e clientes VIP com transfer aeroporto, viagens corporativas e
                     deslocamentos estratégicos, utilizando frota premium com opção de veículos blindados e motoristas
                     altamente qualificados.
                 </p>
                 <ul
-                    class="text-sm text-text-secondary-light dark:text-text-secondary-dark space-y-2 mb-6 hidden md:block">
-                    <li class="flex items-center"><span
-                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Atendimento
+                    class="text-sm text-white space-y-2 mb-6 hidden md:block">
+                    <li class="flex items-center"><span class="text-primary text-sm mr-2" aria-hidden="true">🔹</span> Atendimento
                         executivo personalizado</li>
-                    <li class="flex items-center"><span
-                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Aeroporto GRU,
+                    <li class="flex items-center"><span class="text-primary text-sm mr-2" aria-hidden="true">🔹</span> Aeroporto GRU,
                         CGH e VCP</li>
-                    <li class="flex items-center"><span
-                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Frota premium
+                    <li class="flex items-center"><span class="text-primary text-sm mr-2" aria-hidden="true">🔹</span> Frota premium
                         e veículos blindados</li>
-                    <li class="flex items-center"><span
-                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Discrição,
+                    <li class="flex items-center"><span class="text-primary text-sm mr-2" aria-hidden="true">🔹</span> Discrição,
                         segurança e pontualidade</li>
                 </ul>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <button
                         class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
                         Solicitar Cotação Agora
-                    </button>
-                    <button
-                        class="border border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary/5 transition">
-                        Falar com Atendimento
                     </button>
                 </div>
             </div>
@@ -193,16 +185,11 @@
                 </form>
             </div>
         </div>
-        <div class="absolute bottom-8 left-12 hidden md:flex items-center space-x-2 text-text-primary-dark/70">
-            <div class="border border-white/50 rounded-full h-10 w-6 flex justify-center pt-2">
-                <div class="w-1 h-2 bg-white rounded-full animate-bounce"></div>
-            </div>
-            <span class="text-xs uppercase tracking-widest">Scroll down</span>
-        </div>
+
     </header>
-    <section class="py-20 md:py-32 container mx-auto px-6 md:px-12 relative">
+    <section id="servicos" class="py-20 md:py-32 container mx-auto px-6 md:px-12 relative">
         <span
-            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">01</span>
+            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0"></span>
         <div class="relative z-10">
             <h2 class="text-3xl md:text-4xl font-semibold text-center mb-4 text-primary">Soluções de Mobilidade
                 Executiva sob Medida</h2>
@@ -214,7 +201,7 @@
                 <div class="group relative overflow-hidden rounded-3xl h-80 cursor-pointer">
                     <img alt="Corporate Travel"
                         class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWUTnfulsUVTbObN5TVYy1nyrMENmRYiizA0gTizdsZptZ6XUPgg6en6YxIgINq190NovTZypwiuBIGjNSgFUq9ArGc1gqLxclZpfRH7DbMmM9380h4mYYVR8lr7HG9VdalWDILZfV5KyHsuw1haT6fbaELPfJL1benVunilRbvl4MpEH1JHtAqfiKNhOlkfqr6z-sX42hzjZo_uWNR3zI_eO113LwBSWCXEsmi-GOufFozffio6WZFY2P_4b2NkBNOsgTbbiXUYJO" />
+                        src="https://i.postimg.cc/9MtTQ92F/image1.jpg" />
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
@@ -234,9 +221,9 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-3xl h-80 cursor-pointer md:-mt-8">
-                    <img alt="Airport Transfers"
+                    <img alt="Avião comercial taxiando no pátio"
                         class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3XR15rOfcb3xfBPeiijQjeYM_4niln76R9W-hfC65d5mjj4TSrpqNgARf4nV3AhBsVM8Bijrq33GP-AsfHiWhomtonMupbNzeWJFjt4mb0lUmUFPOeV-YmmqeAYRB5kFpfyUWH0EuYZxppBZGPDpFUHk4fiuB5PuT7CtcOBD5_wpMMeI45nEWAUi5aAVBpvQ-sF69SOJztutQf5ggcMJblKNcngdtaT4FUJRl46EbogZF29n98OabAvMrI4zjyx0aCHQRgEIxrHGo" />
+                        src="https://i.postimg.cc/Dfxn3zGW/avi-o-comercial-estacionado-no-p-tio-ou-taxiando-(1).jpg" />
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
@@ -258,7 +245,7 @@
                 <div class="group relative overflow-hidden rounded-3xl h-80 cursor-pointer">
                     <img alt="Special Events"
                         class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNgTk3aNFgQIiu6H9YUxgekQT_NSNjyMUTFiWJ7FZK4xBv9v5jMjSnJnWS4AcfCecP-x0jS6Z7csNtdMpv2dBBOJCGB1Xwy4c2Ba49EIVx8_nn030xxd2gq062n1PB-Mt8zaxUJrXXs4_Q3IlGEgljBHs8TqcYI33Qi38ClT-ilXDyRjqaD65dqg_I8bQuKjgwakbDWw2b0WRg9Ksv4_gJjQ0J_hB2zNQLA-GD1HmRooUQOGAO9JZdsME_zLV8OfppNjaXyNm_szs4" />
+                        src="https://i.postimg.cc/C1z1WfKX/altere-o-modelo-do-carro-para-que.jpg" />
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
@@ -286,10 +273,10 @@
             </div>
         </div>
     </section>
-    <section
+    <section id="frota"
         class="py-20 md:py-32 container mx-auto px-6 md:px-12 relative border-t border-gray-200 dark:border-gray-800">
         <span
-            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">02</span>
+            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0"></span>
         <div class="relative z-10">
             <div class="flex flex-col items-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-semibold text-primary mb-4">Frota Executiva Premium</h2>
@@ -395,9 +382,9 @@
             </div>
         </div>
     </section>
-    <section class="py-20 md:py-32 container mx-auto px-6 md:px-12 relative">
+    <section id="atuacao" class="py-20 md:py-32 container mx-auto px-6 md:px-12 relative">
         <span
-            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">03</span>
+            class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0"></span>
         <div class="relative z-10 flex flex-col md:flex-row gap-12">
             <div class="md:w-1/3 pt-12 space-y-8">
                 <h2 class="text-3xl md:text-4xl font-semibold text-primary">Atuação Estratégica em São Paulo e
@@ -416,17 +403,17 @@
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
                         <img alt="New York"
                             class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGTv8bmHHhmfbahnzlDanXlq7ZNXkK6vZ4KKJ47yor1ueOL9lVmgJd0VDLWuqA8hFRqmbOU6gMjLErb-E3qPtSKFPXzzm1DCbTEDilX-oG_S2X6Um4KMxMT3cgEJpzp3ipQE7Va0UneROOT2wQsX9Z7C73YdTI5iFA995GQQX1aBJ00X-tPkkyWJBgZ0wAFoyvR5JPzbGURGk7_D4D2hMZ5i_KzdTqjD99wnCCutF_lZe1i35dQOuBJg6OG02-W86K2zjaLC93wgjp" />
+                            src="https://i.postimg.cc/VkZBMn2S/SPEGRANDESP.jpg" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            São Paulo – Capital
+                            SP e GRANDE SP
                         </div>
                     </div>
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
                         <img alt="Atlanta"
                             class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjN8vAOtLxnbeAHayytuzLhuxaUeS-I0uA0H-8OFGrW0oG2uoVfhrJnN0hQnu07S7imGt7up4MRP370kxW_UWGzDP7atCQ8CLbLPIFnzNP7OaQ4kq9wduYBrKN4x6HVI1KVMxN0JG9a9Y2OpOAtNVDps4GNK-8r4hMrbE8YFoEAU_WSVnIjZg7BtzNY9uvXQPZaOpNbVFMCLSkbsFC6vZE_90tghymOWjXXmQpVlyVdA7I9f8gzyr_LSJPjjJotWz_fRqsIbtTG9Ow" />
+                            src="https://i.postimg.cc/HnLkQcqk/GRU.jpg" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
@@ -436,7 +423,7 @@
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
                         <img alt="Boston"
                             class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFfRIIH7JdJ4oSS7ezBYm7uuC4lgLCA0o2bo-y8j-A4eXMiR_ysU6_GwDhsIWwwNLsKPcytpNEcExUKa9jECh13J2X0UFwCbZBuWs1IkC3MGj6opkXdRU5H22FhAgU-pkfGKHyTLj_TnVUSHP8bz81N67n_0VWWuRdYoyH8MrjAbprE6_ZbZVs_jL4gy3nTOEbjpnpXCojOUthNAlLS7pnSXctNYkCKw-aS7axD0QudUINl1eIfQDCDLYoCN7AP8vlHcEMGkA-pK1c" />
+                            src="https://i.postimg.cc/VsHYx6yC/CGH.jpg" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
@@ -446,28 +433,18 @@
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
                         <img alt="Chicago"
                             class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2tyDKzhlJ1NQWrpDdSrZs4LS756Cm71eiAt0P9rB6cpMH0kHK6Rc5r0ZRWHu4u-xQQt6R4g_n1pUQ7BQC9SZBNovKl70qu6_xUzs2zYzW1BIBXP7ZYH279CfQr0RZ53ltSP1xr_R2BvHpNM93T_XM80wCpaWmIm4nwuYQS1Kvuf4dXJc8SaRmnekTZFaS6cYdYmw2YrhnDuGMuCAkGxF2ATXGC0HwpoUptDREAnXGMl--zvSVmNJOmHw9NLZGdwprz95qPiG94wfl" />
+                            src="https://i.postimg.cc/vZyHzKwF/VCP.jpg" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            Alphaville
-                        </div>
-                    </div>
-                    <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
-                        <img alt="Houston"
-                            class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4P7ZMaZLK7hARgTB5uCA5VBb2tZNJU8a5DO_-AszbTbqmKEqWdqmUrk6jtfj2NL8u2ktDSbf9IOyKfFh89aFa79m2PV-aOt6_dJcZLX5QHZDRGHHCKVXnfEC4u0PXNWb-9BxJtRB5LayhcmB5V4i_qeQM3se6yHOKPSEdZ5EdF1A_qvW-iT3lHtQdUoYFJr_ObB6J8wdWem36046rJPdiWlAwH5Kh0ozul1nk2tP753QCo1pTo0WG9rVn5-wzl_JHqQRzgBGWBoDn" />
-                        <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
-                        <div
-                            class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            Campinas e região
+                            Aeroporto VCP
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="bg-background-dark text-text-secondary-dark py-16 text-sm">
+    <footer id="contato" class="bg-background-dark text-text-secondary-dark py-16 text-sm">
         <div class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div class="space-y-6">
                 <h3 class="text-text-primary-dark text-xl font-bold tracking-widest uppercase">JMD Transfer</h3>
@@ -521,6 +498,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- Botão flutuante WhatsApp (azul com detalhes em branco) -->
+    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp" class="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg w-14 h-14 flex items-center justify-center transition">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20.52 3.48A11.79 11.79 0 0 0 12 0C5.373 0 .001 5.373.001 12c0 2.116.553 4.167 1.603 5.99L0 24l6.265-1.638A11.937 11.937 0 0 0 12 24c6.627 0 12-5.373 12-12 0-1.985-.473-3.85-1.48-5.52z" fill="#fff" opacity="0.0"></path>
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.1-.472-.149-.67.15-.198.297-.767.967-.94 1.166-.173.198-.347.223-.644.075-.297-.149-1.255-.462-2.39-1.476-.883-.788-1.48-1.761-1.653-2.06-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.151-.174.2-.298.3-.497.1-.198.05-.372-.025-.52-.075-.149-.67-1.611-.92-2.21-.242-.579-.487-.5-.67-.51l-.572-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487 0.71.306 1.26.489 1.69.626.71.227 1.36.195 1.872.118.57-.085 1.758-.718 2.006-1.413.248-.694.248-1.29.173-1.413-.074-.123-.27-.198-.567-.347z" fill="#fff"/>
+        </svg>
+    </a>
 
 </body>
 

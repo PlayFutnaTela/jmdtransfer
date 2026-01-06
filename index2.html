@@ -64,18 +64,27 @@
     class="bg-background-light dark:bg-background-dark text-text-primary-light dark:text-text-primary-dark font-sans transition-colors duration-300">
     <nav
         class="absolute top-0 w-full z-50 text-text-primary-light dark:text-text-primary-dark p-6 md:px-12 flex justify-between items-center bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-sm">
-        <div class="text-xl md:text-2xl font-bold tracking-widest font-sans uppercase text-primary">Premier Limo</div>
-        <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
-            <a class="hover:text-primary transition-colors" href="#">About</a>
-            <a class="hover:text-primary transition-colors" href="#">Services</a>
-            <a class="hover:text-primary transition-colors" href="#">News</a>
-            <a class="hover:text-primary transition-colors" href="#">Jobs</a>
-            <div class="flex items-center space-x-1 cursor-pointer">
-                <span>ENG</span>
-                <span class="material-icons-outlined text-sm">expand_more</span>
+        <div class="flex flex-col">
+            <div class="text-xl md:text-2xl font-bold tracking-widest font-sans uppercase text-primary">JMD TRANSFER
             </div>
-            <button class="bg-primary/10 text-primary p-2 rounded-full hover:bg-primary/20 transition">
+            <span
+                class="text-[0.6rem] md:text-xs tracking-wider font-light text-text-secondary-light dark:text-text-secondary-dark uppercase hidden md:block">Mobilidade
+                Executiva com Segurança e Discrição</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8 text-sm font-medium tracking-wide">
+            <a class="hover:text-primary transition-colors" href="#">Início</a>
+            <a class="hover:text-primary transition-colors" href="#">Serviços</a>
+            <a class="hover:text-primary transition-colors" href="#">Frota</a>
+            <a class="hover:text-primary transition-colors" href="#">Atuação</a>
+            <a class="hover:text-primary transition-colors" href="#">Contato</a>
+            <button class="bg-primary/10 text-primary p-2 rounded-full hover:bg-primary/20 transition hidden">
                 <span class="material-icons-outlined">menu</span>
+            </button>
+        </div>
+        <div class="hidden md:block">
+            <button
+                class="bg-primary text-text-primary-dark px-6 py-2 rounded-full font-semibold hover:bg-primary-dark transition text-sm">
+                Solicitar Transfer
             </button>
         </div>
         <button class="md:hidden text-text-primary-light dark:text-text-primary-dark">
@@ -90,70 +99,97 @@
         </div>
         <div class="relative z-10 container mx-auto px-6 md:px-12 grid lg:grid-cols-2 gap-12 items-center pt-20">
             <div class="text-text-primary-light dark:text-text-primary-dark space-y-6">
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight">
-                    Your Premier Limo <br /> chauffeur service
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight">
+                    Transfer Executivo Premium em São Paulo, com <span class="text-primary">Segurança e Pontualidade
+                        Absoluta</span>
                 </h1>
                 <p
-                    class="text-text-secondary-light dark:text-text-secondary-dark text-sm md:text-base max-w-md leading-relaxed">
-                    At Premier Limo, we believe in delivering unparalleled luxury and professionalism to every journey.
-                    Experience the difference.
+                    class="text-text-secondary-light dark:text-text-secondary-dark text-sm md:text-base max-w-lg leading-relaxed">
+                    Atendemos executivos, empresas e clientes VIP com transfer aeroporto, viagens corporativas e
+                    deslocamentos estratégicos, utilizando frota premium com opção de veículos blindados e motoristas
+                    altamente qualificados.
                 </p>
-                <button
-                    class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
-                    Explore more
-                </button>
+                <ul
+                    class="text-sm text-text-secondary-light dark:text-text-secondary-dark space-y-2 mb-6 hidden md:block">
+                    <li class="flex items-center"><span
+                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Atendimento
+                        executivo personalizado</li>
+                    <li class="flex items-center"><span
+                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Aeroporto GRU,
+                        CGH e VCP</li>
+                    <li class="flex items-center"><span
+                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Frota premium
+                        e veículos blindados</li>
+                    <li class="flex items-center"><span
+                            class="material-icons-outlined text-primary text-sm mr-2">check_circle</span> Discrição,
+                        segurança e pontualidade</li>
+                </ul>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button
+                        class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
+                        Solicitar Cotação Agora
+                    </button>
+                    <button
+                        class="border border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary/5 transition">
+                        Falar com Atendimento
+                    </button>
+                </div>
             </div>
             <div
                 class="lg:justify-self-end w-full max-w-md bg-surface-light dark:bg-surface-dark rounded-3xl p-6 md:p-8 shadow-2xl backdrop-blur-sm">
-                <div class="flex space-x-4 mb-6 border-b border-border-light dark:border-border-dark pb-2">
-                    <button class="text-primary font-bold border-b-2 border-primary pb-2 -mb-2.5">Distance</button>
-                    <button
-                        class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition font-medium">Hourly</button>
-                    <button
-                        class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition font-medium">Flat
-                        Rate</button>
+                <div class="mb-6 border-b border-border-light dark:border-border-dark pb-4">
+                    <h3 class="text-xl font-bold text-primary">Cotação Rápida</h3>
+                    <p class="text-xs text-text-secondary-light dark:text-text-secondary-dark mt-1">Transfer Executivo
+                    </p>
                 </div>
-                <form class="space-y-5">
+                <form class="space-y-4">
                     <div class="relative">
                         <input
                             class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-gray-900 dark:text-text-primary-dark focus:ring-0 focus:border-primary placeholder-text-secondary-light dark:placeholder-text-secondary-dark text-sm"
-                            placeholder="Pick Up Address" type="text" />
+                            placeholder="Endereço de origem" type="text" />
                         <span
                             class="material-icons-outlined absolute right-0 top-2 text-gray-400 text-sm">location_on</span>
                     </div>
                     <div class="relative">
                         <input
-                            class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-primary focus:ring-0 focus:border-primary placeholder-text-secondary-light dark:placeholder-text-secondary-dark text-sm"
-                            placeholder="Drop off Address" type="text" />
+                            class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-gray-900 dark:text-text-primary-dark focus:ring-0 focus:border-primary placeholder-text-secondary-light dark:placeholder-text-secondary-dark text-sm"
+                            placeholder="Destino" type="text" />
                         <span
                             class="material-icons-outlined absolute right-0 top-2 text-gray-400 text-sm">location_on</span>
                     </div>
                     <div class="relative">
                         <select
                             class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-primary focus:ring-0 focus:border-primary text-sm">
-                            <option>One Way</option>
-                            <option>Round Trip</option>
+                            <option value="" disabled selected>Tipo de serviço</option>
+                            <option>Aeroporto</option>
+                            <option>Corporativo</option>
+                            <option>Horas à disposição</option>
+                            <option>Viagem</option>
                         </select>
                         <span
                             class="material-icons-outlined absolute right-0 top-2 text-gray-400 text-sm">swap_vert</span>
-                    </div>
-                    <div class="relative">
-                        <input
-                            class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-primary focus:ring-0 focus:border-primary text-sm"
-                            type="date" />
                     </div>
                     <div class="flex space-x-4">
                         <div class="relative w-1/2">
                             <input
                                 class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-primary focus:ring-0 focus:border-primary text-sm"
-                                type="time" />
+                                type="date" placeholder="Data" />
+                        </div>
+                        <div class="relative w-1/2">
+                            <input
+                                class="w-full border-0 border-b border-border-light dark:border-border-dark bg-transparent py-2.5 px-0 text-primary focus:ring-0 focus:border-primary text-sm"
+                                type="time" placeholder="Horário" />
                         </div>
                     </div>
-                    <button
-                        class="w-full bg-gray-900 dark:bg-black text-text-primary-dark py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-900 transition mt-4"
-                        type="submit">
-                        Reserve Now
-                    </button>
+                    <div class="pt-2">
+                        <button
+                            class="w-full bg-gray-900 dark:bg-black text-text-primary-dark py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-900 transition mb-2"
+                            type="submit">
+                            Solicitar Cotação
+                        </button>
+                        <p class="text-center text-xs text-text-secondary-light dark:text-text-secondary-dark">Retorno
+                            rápido com atendimento personalizado.</p>
+                    </div>
                 </form>
             </div>
         </div>
@@ -168,8 +204,12 @@
         <span
             class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">01</span>
         <div class="relative z-10">
-            <h2 class="text-3xl md:text-4xl font-semibold text-center mb-16 text-primary">Our services
-            </h2>
+            <h2 class="text-3xl md:text-4xl font-semibold text-center mb-4 text-primary">Soluções de Mobilidade
+                Executiva sob Medida</h2>
+            <p class="text-center text-text-secondary-light dark:text-text-secondary-dark max-w-2xl mx-auto mb-16">
+                Oferecemos serviços de transporte executivo pensados para atender rotinas corporativas exigentes, com
+                foco em segurança, conforto e eficiência logística.
+            </p>
             <div class="grid md:grid-cols-3 gap-8 mb-16">
                 <div class="group relative overflow-hidden rounded-3xl h-80 cursor-pointer">
                     <img alt="Corporate Travel"
@@ -178,11 +218,17 @@
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
-                        Corporate travel
+                        Corporativo
+                    </div>
+                    <div class="absolute bottom-6 left-6 right-16">
+                        <h3 class="text-white text-lg font-bold mb-1">Transfer Executivo Corporativo</h3>
+                        <p class="text-gray-200 text-xs line-clamp-2">Ideal para executivos e reuniões estratégicas com
+                            total discrição.</p>
                     </div>
                     <div class="absolute bottom-6 right-6">
                         <button
-                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition">
+                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition"
+                            title="Solicitar esse serviço">
                             <span class="material-icons-outlined text-sm">arrow_outward</span>
                         </button>
                     </div>
@@ -194,11 +240,17 @@
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
-                        Airport transfers
+                        Aeroporto
+                    </div>
+                    <div class="absolute bottom-6 left-6 right-16">
+                        <h3 class="text-white text-lg font-bold mb-1">Transfer Aeroporto (GRU/CGH/VCP)</h3>
+                        <p class="text-gray-200 text-xs line-clamp-2">Monitoramento de voos e pontualidade no embarque e
+                            desembarque.</p>
                     </div>
                     <div class="absolute bottom-6 right-6">
                         <button
-                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition">
+                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition"
+                            title="Solicitar esse serviço">
                             <span class="material-icons-outlined text-sm">arrow_outward</span>
                         </button>
                     </div>
@@ -210,24 +262,26 @@
                     <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition"></div>
                     <div
                         class="absolute top-6 left-6 bg-surface-light dark:bg-surface-dark text-primary px-4 py-1.5 rounded-full text-sm font-medium">
-                        Special events
+                        Eventos VIP
+                    </div>
+                    <div class="absolute bottom-6 left-6 right-16">
+                        <h3 class="text-white text-lg font-bold mb-1">Viagens VIP e Eventos</h3>
+                        <p class="text-gray-200 text-xs line-clamp-2">Transporte VIP para roadshows, eventos e ocasiões
+                            especiais.</p>
                     </div>
                     <div class="absolute bottom-6 right-6">
                         <button
-                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition">
+                            class="bg-white/20 backdrop-blur-md p-3 rounded-full text-text-primary-dark hover:bg-white hover:text-black transition"
+                            title="Solicitar esse serviço">
                             <span class="material-icons-outlined text-sm">arrow_outward</span>
                         </button>
                     </div>
                 </div>
             </div>
             <div class="text-center max-w-2xl mx-auto space-y-8">
-                <p class="text-text-secondary-light dark:text-text-secondary-dark text-lg leading-relaxed">
-                    Whether you're traveling for business, leisure, or a special occasion, our chauffeur-driven
-                    limousines ensure you arrive in style, comfort, and on time.
-                </p>
                 <button
-                    class="bg-primary text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition transform hover:scale-105 duration-200">
-                    Explore more
+                    class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
+                    Falar com um Especialista
                 </button>
             </div>
         </div>
@@ -238,8 +292,15 @@
             class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">02</span>
         <div class="relative z-10">
             <div class="flex flex-col items-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-semibold text-primary mb-8">Our fleet</h2>
-                <div class="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium uppercase tracking-wider">
+                <h2 class="text-3xl md:text-4xl font-semibold text-primary mb-4">Frota Executiva Premium</h2>
+                <p class="text-center text-text-secondary-light dark:text-text-secondary-dark max-w-2xl">
+                    Nossa frota é composta por veículos de alto padrão, cuidadosamente selecionados para oferecer
+                    conforto, segurança e discrição, atendendo desde executivos individuais até demandas corporativas
+                    completas.
+                </p>
+                <div
+                    class="flex flex-wrap justify-center gap-4 md:gap-8 text-sm font-medium uppercase tracking-wider hidden">
+                    <!-- Hidden filter buttons as we only show main categories -->
                     <button
                         class="bg-gray-900 dark:bg-white text-text-primary-dark dark:text-black px-6 py-2 rounded-full">All</button>
                     <button
@@ -257,9 +318,9 @@
                     class="bg-surface-light dark:bg-surface-dark rounded-3xl p-8 hover:shadow-xl transition duration-300">
                     <div class="flex justify-between items-start mb-6">
                         <div>
-                            <h3 class="text-xl font-bold text-primary">Cadillac Escalade</h3>
-                            <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mt-1">$140 / hour
-                            </p>
+                            <h3 class="text-xl font-bold text-primary">SUV Executivo Premium</h3>
+                            <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mt-1">Conforto
+                                superior &bull; Blindagem opcional</p>
                         </div>
                     </div>
                     <div class="h-48 flex items-center justify-center mb-6">
@@ -275,8 +336,9 @@
                             <span class="text-xs">5</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <span class="text-sm font-medium text-primary">Book now</span>
-                            <button class="bg-primary text-gray-900 p-2 rounded-full hover:bg-yellow-400 transition">
+                            <span class="text-sm font-medium text-primary">Consultar disponibilidade</span>
+                            <button
+                                class="bg-primary text-text-primary-dark p-2 rounded-full hover:bg-primary-dark transition">
                                 <span class="material-icons-outlined text-sm">arrow_outward</span>
                             </button>
                         </div>
@@ -286,9 +348,9 @@
                     class="bg-surface-light dark:bg-surface-dark rounded-3xl p-8 hover:shadow-xl transition duration-300">
                     <div class="flex justify-between items-start mb-6">
                         <div>
-                            <h3 class="text-xl font-bold text-primary">Mercedes Benz S-class</h3>
-                            <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mt-1">$170 / hour
-                            </p>
+                            <h3 class="text-xl font-bold text-primary">Sedan Executivo de Luxo</h3>
+                            <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm mt-1">Elegância e
+                                discrição &bull; Atendimento VIP</p>
                         </div>
                     </div>
                     <div class="h-48 flex items-center justify-center mb-6">
@@ -304,8 +366,9 @@
                             <span class="text-xs">2</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <span class="text-sm font-medium text-primary">Book now</span>
-                            <button class="bg-primary text-gray-900 p-2 rounded-full hover:bg-yellow-400 transition">
+                            <span class="text-sm font-medium text-primary">Consultar disponibilidade</span>
+                            <button
+                                class="bg-primary text-text-primary-dark p-2 rounded-full hover:bg-primary-dark transition">
                                 <span class="material-icons-outlined text-sm">arrow_outward</span>
                             </button>
                         </div>
@@ -326,8 +389,8 @@
                     </button>
                 </div>
                 <button
-                    class="bg-primary text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition transform hover:scale-105 duration-200">
-                    Open page
+                    class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
+                    Solicitar Cotação da Frota
                 </button>
             </div>
         </div>
@@ -337,15 +400,15 @@
             class="absolute top-10 left-6 md:left-12 text-6xl md:text-8xl font-serif text-border-light/50 dark:text-border-dark/50 select-none z-0">03</span>
         <div class="relative z-10 flex flex-col md:flex-row gap-12">
             <div class="md:w-1/3 pt-12 space-y-8">
-                <h2 class="text-3xl md:text-4xl font-semibold text-primary">Top cities</h2>
+                <h2 class="text-3xl md:text-4xl font-semibold text-primary">Atuação Estratégica em São Paulo e
+                    Principais Regiões</h2>
                 <p class="text-text-secondary-light dark:text-text-secondary-dark leading-relaxed">
-                    Experience the height of luxury and convenience with Premier Limo's limousine service in top cities
-                    around the world. Contact us today to book your ride and discover the ultimate in luxury
-                    transportation.
+                    Operamos com excelência em São Paulo (capital) e nas principais regiões estratégicas para negócios,
+                    garantindo deslocamentos eficientes e seguros nos principais eixos corporativos e aeroportuários.
                 </p>
                 <button
-                    class="bg-primary text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 transition transform hover:scale-105 duration-200">
-                    Open page
+                    class="bg-primary text-text-primary-dark px-8 py-3 rounded-full font-semibold hover:bg-primary-dark transition transform hover:scale-105 duration-200">
+                    Ver Disponibilidade na Sua Região
                 </button>
             </div>
             <div class="md:w-2/3 overflow-x-auto pb-4 no-scrollbar">
@@ -357,7 +420,7 @@
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            New York
+                            São Paulo – Capital
                         </div>
                     </div>
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
@@ -367,7 +430,7 @@
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            Atlanta
+                            Aeroporto GRU
                         </div>
                     </div>
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
@@ -377,7 +440,7 @@
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
                             class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
-                            Boston
+                            Aeroporto CGH
                         </div>
                     </div>
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
@@ -386,8 +449,8 @@
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2tyDKzhlJ1NQWrpDdSrZs4LS756Cm71eiAt0P9rB6cpMH0kHK6Rc5r0ZRWHu4u-xQQt6R4g_n1pUQ7BQC9SZBNovKl70qu6_xUzs2zYzW1BIBXP7ZYH279CfQr0RZ53ltSP1xr_R2BvHpNM93T_XM80wCpaWmIm4nwuYQS1Kvuf4dXJc8SaRmnekTZFaS6cYdYmw2YrhnDuGMuCAkGxF2ATXGC0HwpoUptDREAnXGMl--zvSVmNJOmHw9NLZGdwprz95qPiG94wfl" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
-                            class="absolute top-4 left-4 right-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-gray-900 dark:text-text-primary-dark uppercase tracking-wider">
-                            Chicago
+                            class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
+                            Alphaville
                         </div>
                     </div>
                     <div class="relative w-48 h-96 rounded-3xl overflow-hidden group cursor-pointer">
@@ -396,8 +459,8 @@
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4P7ZMaZLK7hARgTB5uCA5VBb2tZNJU8a5DO_-AszbTbqmKEqWdqmUrk6jtfj2NL8u2ktDSbf9IOyKfFh89aFa79m2PV-aOt6_dJcZLX5QHZDRGHHCKVXnfEC4u0PXNWb-9BxJtRB5LayhcmB5V4i_qeQM3se6yHOKPSEdZ5EdF1A_qvW-iT3lHtQdUoYFJr_ObB6J8wdWem36046rJPdiWlAwH5Kh0ozul1nk2tP753QCo1pTo0WG9rVn5-wzl_JHqQRzgBGWBoDn" />
                         <div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition"></div>
                         <div
-                            class="absolute top-4 left-4 right-4 bg-white/90 dark:bg-gray-800/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-gray-900 dark:text-text-primary-dark uppercase tracking-wider">
-                            Houston
+                            class="absolute top-4 left-4 right-4 bg-surface-light/90 dark:bg-surface-dark/90 backdrop-blur text-center py-2 rounded-full text-xs font-bold text-primary uppercase tracking-wider">
+                            Campinas e região
                         </div>
                     </div>
                 </div>
@@ -407,58 +470,38 @@
     <footer class="bg-background-dark text-text-secondary-dark py-16 text-sm">
         <div class="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div class="space-y-6">
-                <h3 class="text-text-primary-dark text-xl font-bold tracking-widest uppercase">Premier Limo</h3>
+                <h3 class="text-text-primary-dark text-xl font-bold tracking-widest uppercase">JMD Transfer</h3>
                 <div class="space-y-1">
-                    <p>121 Tanglewood Street, Bronx, NY 10472</p>
-                    <p class="text-text-primary-dark">info@premierlimo.com</p>
+                    <p>Somos uma empresa especializada em transfer executivo premium.</p>
                 </div>
-                <div class="pt-4">
-                    <p class="mb-2">Subscribe to the newsletter</p>
-                    <div class="flex border-b border-gray-600 pb-2">
-                        <input
-                            class="bg-transparent w-full outline-none text-text-primary-dark placeholder-gray-500 border-none focus:ring-0 p-0 text-sm"
-                            placeholder="Email..." type="email" />
-                        <button class="text-text-primary-dark hover:text-primary transition">
-                            <span class="material-icons-outlined text-sm">arrow_forward</span>
-                        </button>
-                    </div>
+                <div class="space-y-1">
+                    <p>São Paulo – SP</p>
+                    <p class="text-text-primary-dark">contato@jmdtransfer.com.br</p>
+                    <p>Atendimento via WhatsApp</p>
                 </div>
             </div>
             <div class="space-y-4">
-                <h4 class="text-text-primary-dark font-semibold">Top cities</h4>
+                <h4 class="text-text-primary-dark font-semibold">Links Rápidos</h4>
                 <ul class="space-y-2">
-                    <li><a class="hover:text-text-primary-dark transition" href="#">New York</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">London</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Berlin</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Los Angeles</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Paris</a></li>
+                    <li><a class="hover:text-text-primary-dark transition" href="#">Transfer Aeroporto</a></li>
+                    <li><a class="hover:text-text-primary-dark transition" href="#">Transfer Executivo</a></li>
+                    <li><a class="hover:text-text-primary-dark transition" href="#">Viagens Corporativas</a></li>
+                    <li><a class="hover:text-text-primary-dark transition" href="#">Frota Premium</a></li>
+                    <li><a class="hover:text-text-primary-dark transition" href="#">Contato</a></li>
                 </ul>
             </div>
-            <div class="space-y-4">
-                <h4 class="text-text-primary-dark font-semibold">Explore</h4>
-                <ul class="space-y-2">
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Intercity rides</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Limousine service</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Chauffeur service</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Private car service</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Airport transfer</a></li>
-                </ul>
-            </div>
-            <div class="space-y-4">
-                <h4 class="text-text-primary-dark font-semibold">Intercity rides</h4>
-                <ul class="space-y-2">
-                    <li><a class="hover:text-text-primary-dark transition" href="#">East Hampton - New York</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">New York - Washington</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">New York - Philadelphia</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">Abu Dhabi - Dubai</a></li>
-                    <li><a class="hover:text-text-primary-dark transition" href="#">London - Birmingham</a></li>
-                </ul>
+            <div class="space-y-4 lg:col-span-2 text-right">
+                <h4 class="text-text-primary-dark font-semibold mb-4">Fale Conosco</h4>
+                <button
+                    class="bg-primary text-text-primary-dark px-6 py-2 rounded-full font-semibold hover:bg-primary-dark transition">
+                    Falar com Atendimento Executivo
+                </button>
             </div>
         </div>
         <div
             class="container mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="text-xs">
-                © 2024 PREMIER LIMO
+                © 2026 – JMD TRANSFER. Mobilidade Executiva com Segurança e Excelência.
             </div>
             <div class="flex space-x-6 text-xs">
                 <a class="hover:text-text-primary-dark transition" href="#">Terms</a>
